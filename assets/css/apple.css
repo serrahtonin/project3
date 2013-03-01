@@ -1289,11 +1289,12 @@ body {
 #jqt h1, #jqt h2 {
   font: bold 18px "Helvetica Neue", Helvetica;
   margin: 10px 20px 6px;
-  color: #5c6d7b;
+  color: #c2c2c2;
   text-shadow: #e8ebee 0 1px 0;
 }
 /* line 41, ../scss/include/_skeleton.scss */
 #jqt .toolbar {
+  background-color:#c2c2c2;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 1px 6px;
@@ -1319,6 +1320,7 @@ body {
   text-overflow: ellipsis;
   white-space: nowrap;
   color: black;
+  background-color:#c2c2c2;
   text-shadow: #5c718e 0 -1px 0;
 }
 /* line 71, ../scss/include/_skeleton.scss */
@@ -1332,7 +1334,7 @@ body {
   width: 250px;
 }
 /* line 80, ../scss/include/_skeleton.scss */
-#jqt .button, #jqt .back, #jqt .cancel, #jqt .add {
+#jqt .button, #jqt .back, #jqt .cancel, #jqt .add { /*BUTTONNNN*/
   position: absolute;
   overflow: hidden;
   width: auto;
@@ -1358,15 +1360,15 @@ body {
   border-radius: 5px;
   background-image: none;
   background-color: #E1D1D1;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #E1D1D1), color-stop(50%, #5a7caa), color-stop(51%, #50709a), color-stop(100%, #476489));
-  background-image: -webkit-linear-gradient(top, #7c97bb, #5a7caa 50%, #50709a 51%, #476489);
-  background-image: linear-gradient(top, #7c97bb, #5a7caa 50%, #50709a 51%, #476489);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #E1D1D1), color-stop(50%, #E1D1D1), color-stop(51%, #E1D1D1), color-stop(100%, #E1D1D1));
+  background-image: -webkit-linear-gradient(top, #E1D1D1, #E1D1D1 50%, #E1D1D1 51%, #E1D1D1);
+  background-image: linear-gradient(top, #E1D1D1, #E1D1D1 50%, #E1D1D1 51%, #E1D1D1);
 }
 /* line 107, ../scss/include/_skeleton.scss */
 #jqt .button.active, #jqt .back.active, #jqt .cancel.active, #jqt .add.active {
   border-color: #243346;
   background-image: none;
-  background-color: #476489;
+  background-color: #E1D1D1;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6b89b2), color-stop(50%, #50709a), color-stop(51%, #476489), color-stop(100%, #3e5779));
   background-image: -webkit-linear-gradient(top, #6b89b2, #50709a 50%, #476489 51%, #3e5779);
   background-image: linear-gradient(top, #6b89b2, #50709a 50%, #476489 51%, #3e5779);
@@ -1526,7 +1528,7 @@ body {
 }
 /* line 231, ../scss/include/_skeleton.scss */
 #jqt ul, #jqt ul.individual li {
-  background-color: white;
+  background-color: white; /*blog and contact*/
   color: gray;
   text-shadow: white 0 1px 0;
   border: 1px solid #d9d9d9;
@@ -1562,7 +1564,7 @@ body {
 /* line 265, ../scss/include/_skeleton.scss */
 #jqt ul li a.active {
   background-image: none;
-  background-color: #3366cc;
+  background-color: gray;
   -webkit-box-shadow: #4372d0 0 1px 0px inset;
   box-shadow: #4372d0 0 1px 0px inset;
   color: white;
