@@ -1259,7 +1259,7 @@ body {
 
 /* line 9, ../scss/include/_skeleton.scss */
 .base-chevron, #jqt ul li.arrow:after, #jqt ul li.forward:after {
-  content: 'â€º';
+  content: '»';
   width: 22px;
   height: 100%;
   vertical-align: middle;
@@ -1290,11 +1290,19 @@ body {
   font: bold 18px "Helvetica Neue", Helvetica;
   margin: 10px 20px 6px;
   color: #c2c2c2;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c2c2c2), color-stop(100%, #c2c2c2)), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c2c2c2), color-stop(50%, #c2c2c2), color-stop(51%, #c2c2c2), color-stop(100%, #c2c2c2));
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0)), -webkit-linear-gradient(top, #c2c2c2, #c2c2c2 50%, #c2c2c2 51%, #c2c2c2);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0)), linear-gradient(top, #c2c2c2, #c2c2c2 50%, #c2c2c2 51%, #c2c2c2);
+  
   text-shadow: #e8ebee 0 1px 0;
 }
 /* line 41, ../scss/include/_skeleton.scss */
 #jqt .toolbar {
   background-color:#c2c2c2;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c2c2c2), color-stop(100%, #c2c2c2)), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c2c2c2), color-stop(50%, #c2c2c2), color-stop(51%, #c2c2c2), color-stop(100%, #c2c2c2));
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0)), -webkit-linear-gradient(top, #c2c2c2, #c2c2c2 50%, #c2c2c2 51%, #c2c2c2);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0)), linear-gradient(top, #c2c2c2, #c2c2c2 50%, #c2c2c2 51%, #c2c2c2);
+  
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 1px 6px;
@@ -1502,10 +1510,10 @@ body {
 /* line 211, ../scss/include/_skeleton.scss */
 #jqt .greenButton {
   background-image: none;
-  background-color: #3366cc;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #7094db), color-stop(50%, #4775d1), color-stop(51%, #3366cc), color-stop(100%, #2e5cb8));
-  background-image: -webkit-linear-gradient(top, #7094db, #4775d1 50%, #3366cc 51%, #2e5cb8);
-  background-image: linear-gradient(top, #7094db, #4775d1 50%, #3366cc 51%, #2e5cb8);
+  background-color: #c2c2c2;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #7094db), color-stop(50%, #4775d1), color-stop(51%, #c2c2c2), color-stop(100%, #2e5cb8));
+  background-image: -webkit-linear-gradient(top, #7094db, #4775d1 50%, #c2c2c2 51%, #2e5cb8);
+  background-image: linear-gradient(top, #7094db, #4775d1 50%, #c2c2c2 51%, #2e5cb8);
   color: white;
   text-shadow: #2952a3 0 -1px 0;
 }
@@ -1528,7 +1536,7 @@ body {
 }
 /* line 231, ../scss/include/_skeleton.scss */
 #jqt ul, #jqt ul.individual li {
-  background-color: white; /*blog and contact*/
+  background-color: #E1D1D1; /*blog and contact*/
   color: gray;
   text-shadow: white 0 1px 0;
   border: 1px solid #d9d9d9;
@@ -1581,7 +1589,7 @@ body {
 }
 /* line 280, ../scss/include/_skeleton.scss */
 #jqt ul li small {
-  color: #3366cc;
+  color: #c2c2c2;
   font: 16px "Helvetica Neue", Helvetica;
   text-align: right;
   text-overflow: ellipsis;
@@ -1690,10 +1698,10 @@ body {
   -webkit-border-radius: 12px;
   border-radius: 12px;
   background-image: none;
-  background-color: #3366cc;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #7094db), color-stop(50%, #4775d1), color-stop(51%, #3366cc), color-stop(100%, #2e5cb8));
-  background-image: -webkit-linear-gradient(top, #7094db, #4775d1 50%, #3366cc 51%, #2e5cb8);
-  background-image: linear-gradient(top, #7094db, #4775d1 50%, #3366cc 51%, #2e5cb8);
+  background-color: #c2c2c2;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #7094db), color-stop(50%, #4775d1), color-stop(51%, #c2c2c2), color-stop(100%, #2e5cb8));
+  background-image: -webkit-linear-gradient(top, #7094db, #4775d1 50%, #c2c2c2 51%, #2e5cb8);
+  background-image: linear-gradient(top, #7094db, #4775d1 50%, #c2c2c2 51%, #2e5cb8);
   border: 2px solid #fff;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
@@ -1898,19 +1906,19 @@ body {
   font-weight: bold;
 }
 
-/* line 13, ../scss/apple.scss */
+/* line 13, ../scss/apple.scss BACKGROUNDDD*/
 #jqt > * {
-  background-color: #cbd2d8;
-  background-image: -webkit-gradient(linear, 0% 50%, 7 50%, color-stop(0%, rgba(197, 205, 212, 0)), color-stop(14.286%, rgba(197, 205, 212, 0)), color-stop(14.286%, #c5cdd4), color-stop(100%, #c5cdd4));
-  background-image: -webkit-linear-gradient(left, rgba(197, 205, 212, 0), rgba(197, 205, 212, 0) 1px, #c5cdd4 1px, #c5cdd4 7px);
-  background-image: linear-gradient(left, rgba(197, 205, 212, 0), rgba(197, 205, 212, 0) 1px, #c5cdd4 1px, #c5cdd4 7px);
+  background-color: #E1D1D1;
+  background-image: -webkit-gradient(linear, 0% 50%, 7 50%, color-stop(0%, rgba(197, 205, 212, 0)), color-stop(14.286%, rgba(197, 205, 212, 0)), color-stop(14.286%, #c2c2c2), color-stop(100%, #c2c2c2));
+  background-image: -webkit-linear-gradient(left, rgba(197, 205, 212, 0), rgba(197, 205, 212, 0) 1px, #c2c2c2 1px, #c2c2c2 7px);
+  background-image: linear-gradient(left, rgba(197, 205, 212, 0), rgba(197, 205, 212, 0) 1px, #c2c2c2 1px, #c2c2c2 7px);
   background-size: 7px;
 }
 /* line 23, ../scss/apple.scss */
 #jqt .toolbar {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.15)), color-stop(100%, rgba(255, 255, 255, 0))), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #92a3b9), color-stop(50%, #7f93ad), color-stop(51%, #768ba7), color-stop(100%, #6d83a1));
-  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0)), -webkit-linear-gradient(top, #92a3b9, #7f93ad 50%, #768ba7 51%, #6d83a1);
-  background-image: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0)), linear-gradient(top, #92a3b9, #7f93ad 50%, #768ba7 51%, #6d83a1);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c2c2c2), color-stop(100%, #c2c2c2)), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c2c2c2), color-stop(50%, #c2c2c2), color-stop(51%, #c2c2c2), color-stop(100%, #c2c2c2));
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0)), -webkit-linear-gradient(top, #c2c2c2, #c2c2c2 50%, #c2c2c2 51%, #c2c2c2);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0)), linear-gradient(top, #c2c2c2, #c2c2c2 50%, #c2c2c2 51%, #c2c2c2);
   -webkit-box-shadow: rgba(255, 255, 255, 0.3) 0 1px 0 inset;
   box-shadow: rgba(255, 255, 255, 0.3) 0 1px 0 inset;
 }
